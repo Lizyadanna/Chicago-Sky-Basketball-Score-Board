@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    border: 2px solid black;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.home-score-number {
+border: 3px solid red;
+border-radius: 3px;
+margin-bottom: 10px;
+}
+
+.guest-score-number {
+    border: 3px solid red;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    border-bottom: 2px thick black;
+    text-align: center;
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+}
+
+
