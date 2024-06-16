@@ -10,33 +10,49 @@ body {
 }
 
 .container {
+    color: white;
+    letter-spacing: 4px;
+    background-color: rgb(181, 157, 121);
     border: 2px solid black;
+    border-radius: 7px;
     width: 600px;
+    height: 250px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding-bottom: 20px;
     font-weight: 400;
 }
 
 .home-score-number {
-border: 3px solid red;
+    color: red;
+    background-color: black;
+    border: 1.5px solid white;
 border-radius: 3px;
 margin-bottom: 10px;
 }
 
 .guest-score-number {
-    border: 3px solid red;
+    color: red;
+    background-color: black;
+    border: 1.5px solid white;
     border-radius: 2px;
     margin-bottom: 10px;
 }
 
 h1 {
+    text-decoration: underline;
     border-bottom: 2px thick black;
     text-align: center;
-    border-bottom: 3px solid red;
     padding-bottom: 5px;
 }
 
+button {
+    border: none;
+    margin-top: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 
