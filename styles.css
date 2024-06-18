@@ -12,10 +12,11 @@ body {
 .container {
     color: white;
     letter-spacing: 4px;
-    background-color: rgb(181, 157, 121);
+    background-color: rgb(74, 74, 157);
     border: 2px solid black;
     border-radius: 7px;
-    width: 600px;
+    max-width: 600px;
+    width: 90%;
     height: 250px;
     margin: 0 auto;
     text-align: center;
@@ -56,3 +57,26 @@ button {
     cursor: pointer;
 }
 
+@media (min-width: 501px) {
+    .container {
+        flex-direction: row; /* Row layout for larger screens */
+    }
+    .container > div {
+        margin: 10px; /* Added margin for spacing between columns */
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%; /* Ensure container width is full */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    .home-score-number, .guest-score-number {
+        width: 100%; /* Full width for score containers */
+        box-sizing: border-box; /* Ensure padding is included in width */
+    }
+    button {
+        width: 90%; /* Full width for buttons */
+        margin: 5px auto; /* Centered buttons with margin */
+    }
+}
